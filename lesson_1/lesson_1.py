@@ -45,7 +45,7 @@ vital_parameters_of_astronauts = [  # Жизненные показатели к
      74, 22, 5, 83, 13, 14, 19, 64, 75]
     ]
 
-astronaut = 6
+astronaut = 0
 i = vital_parameters_of_astronauts[astronaut]
 print(i)
 
@@ -151,5 +151,5 @@ print('Check_sum =', check_sum)
 if abs(check_sum - 14085) > 1:
     print(
         '[ENG] The parameters should not differ by more than 1.',
-        '[РУС] Параметры не должны  отличаться больше чем на 1.'
+        '[РУС] Параметры не должны отличаться больше чем на 1.'
     )
