@@ -45,7 +45,7 @@ vital_parameters_of_astronauts = [  # Жизненные показатели к
      74, 22, 5, 83, 13, 14, 19, 64, 75]
     ]
 
-astronaut = 5
+astronaut = 4
 i = vital_parameters_of_astronauts[astronaut]
 print(i)
 
