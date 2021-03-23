@@ -3,11 +3,11 @@
 
 # Task 1.
 # Fix bug: division by zero
-# Change ONLY ONE integer number for fix it
+# ADD +1 ONLY ONE NUMBER to fix it
 
 # Задание 1.
 # Исправить баг: деление на ноль
-# Измени ТОЛЬКО ОДНО целое число чтобы исправить это
+# ДОБАВЬ +1 ТОЛЬКО ОДНОМУ ЧИСЛУ чтобы исправить это
 
 
 space_shuttle_data = list(range(100))  # Данные из Космического Шаттла
@@ -129,10 +129,10 @@ try:
     number = (numbers[i1] - numbers[i2] - numbers[i3]) / number
     number = numbers[i3] / number
 
-
 except ZeroDivisionError:
     number = None
     print('[ENG] Cannot divide by zero', '[РУС] Нельзя делить на ноль')
+
 
 # Критический параметр полёта космического корабля
 # Critical parameter of the spacecraft flight
