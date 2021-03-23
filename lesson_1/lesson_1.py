@@ -22,7 +22,7 @@ vital_parameters_of_astronauts = [  # Жизненные показатели к
 
     [45, 70, 85, 29, 87, 31, 13, 92, 74, 80, 90, 35, 43, 54, 91,
      15, 26, 48, 76, 81, 66, 18, 10, 57, 89, 61, 97, 17, 27, 67,
-     8, 97, 48, 51, 79, 53, 41, 34, 59, 68],
+     8, 99, 48, 51, 79, 53, 41, 34, 59, 68],
 
     [50, 34, 12, 86, 94, 17, 40, 7, 59, 62, 52, 43, 61, 59, 49,
      10, 60, 98, 63, 36, 42, 28, 75, 85, 83, 97, 44, 1, 46, 78,
@@ -45,7 +45,7 @@ vital_parameters_of_astronauts = [  # Жизненные показатели к
      74, 22, 5, 83, 13, 14, 19, 64, 75]
     ]
 
-astronaut = 4
+astronaut = 6
 i = vital_parameters_of_astronauts[astronaut]
 print(i)
 
@@ -148,7 +148,7 @@ for astronaut in vital_parameters_of_astronauts:
 
 print('Check_sum =', check_sum)
 
-if abs(check_sum - 14088) > 1:
+if abs(check_sum - 14086) > 1:
     print(
         '[ENG] The parameters should not differ by more than 1.',
         '[РУС] Параметры не должны  отличаться больше чем на 1.'
