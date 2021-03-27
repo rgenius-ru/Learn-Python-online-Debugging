@@ -1,5 +1,6 @@
 import random as rnd
 
+
 class Astronaut:
     def __init__(self, astronaut_id, name, parameters):
         self.name = name
