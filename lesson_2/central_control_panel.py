@@ -1,3 +1,5 @@
+import random as rnd
+
 class Astronaut:
     def __init__(self, astronaut_id, name, parameters):
         self.name = name
@@ -7,7 +9,7 @@ class Astronaut:
 
 class SpaceShuttle:
     def __init__(self):
-        self.data = list(range(100))
+        self.data = rnd.sample(range(100), 100)
 
 
 class Calculation:

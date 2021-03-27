@@ -1,3 +1,15 @@
+# Using debugging tools inside functions
+# Использование инструментов отладки внутри функций
+
+# Task 1.
+# Fix bug: division by zero
+# ADD +1 ONLY ONE NUMBER to fix it
+
+# Задание 1.
+# Исправить баг: деление на ноль
+# ДОБАВЬ +1 ТОЛЬКО ОДНОМУ ЧИСЛУ чтобы исправить это
+
+
 import central_control_panel as ccp
 
 names = [
