@@ -1,5 +1,5 @@
 # Using debugging tools
-# Использование инструметов отладки
+# Использование инструментов отладки
 
 # Task 1.
 # Fix bug: division by zero
